@@ -11,7 +11,7 @@ st.markdown("""
     <style>
         .main {background: linear-gradient(to right, #1e3c72, #2a5298); color: white;}
         h1 {color: #ffffff; text-align: center;}
-        .stMetric {background: #76c9ec; padding: 10px; border-radius: 10px; 
+        .stMetric {background: #deebf7; padding: 10px; border-radius: 10px; 
                    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.2); color: white;}
         .stButton>button {background-color: #2a5298; color: white; border-radius: 5px;}
         .stTextInput>div>div>input {background-color: #ffffff; color: #000000; border-radius: 5px;}
