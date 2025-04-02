@@ -6,7 +6,14 @@ import time
 # Configuration de la page
 st.set_page_config(page_title="Gestion des Freelancers Intelcia", layout="wide")
 
-# Style CSS pour améliorer l'apparence avec des nuances de bleu
+# Affichage des logos
+top_col1, top_col2, top_col3 = st.columns([1, 2, 1])
+with top_col1:
+    st.image("intelcia_logo.png", width=150)
+with top_col3:
+    st.image("freelance_platform_logo.png", width=150)
+
+# Style CSS pour améliorer l'apparence
 st.markdown("""
     <style>
         .main {background: linear-gradient(to right, #1e3c72, #2a5298); color: white;}
