@@ -8,8 +8,11 @@ st.set_page_config(page_title="Gestion des Freelancers Intelcia", layout="wide")
 
 # Affichage des logos
 top_col1, _, top_col3 = st.columns([1, 2, 1])
+
+# Display images in the first and third columns
 with top_col1:
     st.image("https://files.fm/u/u7t2xf9xzq/logo1.png", width=150)
+
 with top_col3:
     st.image("https://files.fm/u/azz5sqrfv5/logo2.png", width=150)
 
