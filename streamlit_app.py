@@ -46,14 +46,13 @@ if uploaded_file:
     # Affichage des indicateurs avec animations
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-    st.markdown(f"<p style='color:white; font-size:18px;'>👥 Total Freelancers: {total_freelancers}</p>", unsafe_allow_html=True)
+        st.metric(label="👥 Total Freelancers", value=total_freelancers)
     with col2:
-    st.markdown(f"<p style='color:white; font-size:18px;'>❌ Contrats Expirés: {expired_contracts}</p>", unsafe_allow_html=True)
+        st.metric(label="❌ Contrats Expirés", value=expired_contracts)
     with col3:
-    st.markdown(f"<p style='color:white; font-size:18px;'>⏳ Contrats < 30 jours: {soon_expiring_contracts}</p>", unsafe_allow_html=True)
+        st.metric(label="⏳ Contrats < 30 jours", value=soon_expiring_contracts)
     with col4:
-    st.markdown(f"<p style='color:white; font-size:18px;'>📅 Moyenne Temps Restant: {avg_time_remaining:.1f} jours</p>", unsafe_allow_html=True)
-
+        st.metric(label="📅 Moyenne Temps Restant", value=f"{avg_time_remaining:.1f} jours")
     
     # Graphique de répartition des spécialités
     st.subheader("📊 Répartition des spécialités IT")
