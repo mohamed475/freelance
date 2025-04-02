@@ -9,9 +9,9 @@ st.set_page_config(page_title="Gestion des Freelancers Intelcia", layout="wide")
 # Affichage des logos
 top_col1, top_col2, top_col3 = st.columns([1, 2, 1])
 with top_col1:
-    st.image("intelcia_logo.png", width=150)
+    st.image("https://ibb.co/tTQpxD4h", width=150)
 with top_col3:
-    st.image("freelance_platform_logo.png", width=150)
+    st.image("https://ibb.co/XxQF3t7J", width=150)
 
 # Style CSS pour améliorer l'apparence
 st.markdown("""
